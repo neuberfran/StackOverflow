@@ -102,7 +102,7 @@
 };
 
 &gpio00 {
-	gpio-line-names = "gpiochip0",
+	gpio-line-names = 3D
 			                    "",
                                 "",
                                 "",
@@ -137,7 +137,7 @@
 };
 
 &gpio11 {
-	gpio-line-names = "gpiochip1",
+	gpio-line-names = 3D
                                 "",
                                 "",
                                 "",
@@ -172,7 +172,7 @@
 };
 
 &gpio22 {
-	gpio-line-names = "gpiochip2",
+	gpio-line-names = 3D
 		                        "",
                                 "",
                                 "",
@@ -207,7 +207,7 @@
 };
 
 &gpio33 {
-	gpio-line-names = "gpiochip3",
+	gpio-line-names = 3D
 			                    "",
                                 "",
                                 "",
@@ -242,7 +242,7 @@
 };
 
 &gpio44 {
-	gpio-line-names = "gpiochip4",
+	gpio-line-names = 3D
 			                    "",
                                 "",
                                 "",
@@ -277,7 +277,7 @@
 };
 
 &gpio55 {
-	gpio-line-names = "gpiochip5",
+	gpio-line-names = 3D
      	                        "",
                                 "",
                                 "",
@@ -312,7 +312,7 @@
 };
 
 &gpio66 {
-	gpio-line-names = "gpiochip6",
+	gpio-line-names = 3D
          	                    "",
                                 "",
                                 "",
