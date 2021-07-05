@@ -638,12 +638,10 @@
 };
 
 &iomuxc {
-	pinctrl-names = "default";
-	pinctrl-0 = <&pinctrl_gpio00 &pinctrl_gpio11 &pinctrl_gpio22
-		&pinctrl_gpio33 &pinctrl_gpio44 &pinctrl_gpio55
-		&pinctrl_gpio66>;       
+	pinctrl-names =3D "default";
+	pinctrl-0 =3D <&pinctrl_hog>;
 
-	pinctrl_ecspi3: ecspi3grp {
+        pinctrl_ecspi3: ecspi3grp {
 		fsl,pins = <
 			MX7D_PAD_I2C1_SCL__ECSPI3_MISO		0x2
 			MX7D_PAD_I2C1_SDA__ECSPI3_MOSI		0x2
